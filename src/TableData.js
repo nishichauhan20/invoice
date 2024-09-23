@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { StyledTableData } from "./TableDataStyle";
 const TableData = () => {
   const [newRows, setNewRows] = useState([
@@ -123,16 +123,22 @@ const TableData = () => {
           </tr>
         </tbody>
       </table>
-      <a
-        href="#"
+      <button
         onClick={(e) => {
           e.preventDefault();
           addNewRow();
         }}
         className="add-new"
+        style={{
+          border: "none",
+          background: "none",
+          color: "blue",
+          cursor: "pointer",
+          textDecoration: "underline",
+        }}
       >
         ➕ Add New Row
-      </a>
+      </button>
     </StyledTableData>
   );
 };

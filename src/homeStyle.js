@@ -27,7 +27,7 @@ export const StyledHome = styled.div`
     flex-direction: column;
     left: 150px;
     width: 280px;
-    height: 98px;
+    height: 112px;
     margin-top: 12px;
     padding: 4px;
     /* margin-bottom: 10px; */
@@ -38,6 +38,7 @@ export const StyledHome = styled.div`
     border: 1px dotted transparent;
     padding: 4px;
     resize: none;
+
     scroll-behavior: none;
     overflow: hidden;
   }
@@ -52,6 +53,7 @@ export const StyledHome = styled.div`
   }
   textarea:focus {
     outline: none;
+    font-size: 16px;
   }
   .greeting {
     display: flex;
@@ -78,7 +80,7 @@ export const StyledHome = styled.div`
     scroll-behavior: none;
     overflow: hidden;
     width: 590px;
-    height: 20px;
+    height: auto;
   }
 
   .text-size {

@@ -62,31 +62,13 @@ const Home = () => {
 
       <div className="sign">
         <p className="bold">FROM GOVIND ENGINEERING</p>
-        <img src={sign} />
+        <img src={sign} alt="Signature" />
+
         <p>GOVIND CHOUHAN</p>
         <p>(PROP)</p>
         <p>9873951727</p>
       </div>
       <br />
-      {/* <hr />
-      <div className="footer">
-        <div className="foot1">
-          <h4>REGISTERED OFFICE : </h4>
-          <p>PLOT NO.50</p>
-          <p>Jeevan Nagar</p>
-          <p>Sohna Road</p>
-          <p>Faridabad</p>
-          <p>Haryana</p>
-        </div>
-        <div className="foot1">
-          <h4>CONTACT US : </h4>
-          <p>GOVIND CHOUHAN : 9873951727</p>
-          <a href="#">govindengineering@yahoo.com</a>
-        </div>
-        <div className="foot1">
-          <h4>Govind Engineering</h4>
-        </div>
-      </div> */}
     </StyledHome>
   );
 };
